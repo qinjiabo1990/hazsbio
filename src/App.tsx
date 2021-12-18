@@ -18,6 +18,7 @@ function App() {
         >
           Learn React
         </a>
+				<p>try git</p>
       </header>
     </div>
   );
