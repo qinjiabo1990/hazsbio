@@ -1,0 +1,13 @@
+.product{
+	background-color: #F5F9FE;
+	padding: 40px 0 80px;
+}
+.productCard{
+	max-width: 1140px;
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin-top: 50px;
+}
