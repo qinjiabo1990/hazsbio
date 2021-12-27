@@ -9,16 +9,14 @@ import Logo from '../../assets/img/Logo.png'
 
 
 export const Header: React.FC = () => {
-	const history = useHistory();
-
 	return (
 		<div className={styles.header}>
 			<img className={styles.logoImg} src={Logo} alt="Logo" />
 			<div className={styles.menu}>
-				<a onClick={() => history.push('')}>首页</a>
-				<a onClick={() => history.push('')}>产品</a>
-				<a onClick={() => history.push('')}>关于我们</a>
-				<a onClick={() => history.push('')}>联系我们</a>
+				<Link to='/'>首页</Link>
+				<Link to='/'>产品</Link>
+				<Link to='about'>关于我们</Link>
+				<Link to='contact'>联系我们</Link>
 			</div>
 		</div>
 	)

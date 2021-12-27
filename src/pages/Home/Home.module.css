@@ -1,6 +1,7 @@
 .product{
 	background-color: #F5F9FE;
-	padding: 40px 0 80px;
+	padding-top: 80px;
+	height: 650px;
 }
 .productCard{
 	max-width: 1140px;
@@ -10,4 +11,10 @@
 	flex-wrap: wrap;
 	justify-content: space-around;
 	margin-top: 50px;
+}
+
+.service{
+	background-color: white;
+	padding-top: 80px;
+	height: 500px;
 }

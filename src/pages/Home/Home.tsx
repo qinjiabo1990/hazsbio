@@ -1,26 +1,31 @@
 import React from 'react'
-import { Footer, Header, Carousel, ProductCard, Service } from '../../components'
+import { Carousel, ProductCard, Service, Cooperator, Contact } from '../../components'
 import styles from './Home.module.css'
+import { MainLayout } from '../../layouts/mainLayout';
 
 export const Home: React.FC = () => {
-	return (<>
-		<Header />
-		<Carousel />
-		<div className={styles.product}>
-			<h2>我们的产品</h2>
-			<div className={styles.productCard}>
-				<ProductCard />
-				<ProductCard />
-				<ProductCard />
+	return (
+		<MainLayout>
+			<Carousel />
+			<div className={styles.product}>
+				<h2>我们的产品</h2>
+				<div className={styles.productCard}>
+					<ProductCard />
+					<ProductCard />
+					<ProductCard />
+				</div>
 			</div>
-		</div>
-		<div className={styles.product}>
-			<h2>我们的服务</h2>
-			<div className={styles.productCard}>
-				<Service />
-				<Service />
+			<div className={styles.service}>
+				<h2>我们的服务</h2>
+				<div className={styles.productCard}>
+					<Service />
+					<Service />
+				</div>
 			</div>
-		</div>
-		<Footer />
-	</>)
+			<div className={styles.product}>
+				<h2>合作伙伴</h2>
+				<Cooperator />
+			</div>
+			<Contact />
+		</MainLayout>)
 }
