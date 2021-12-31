@@ -1,4 +1,4 @@
-.footer{
+.footerContainer{
 	display: flex;
 	flex-direction: row;
 	max-width: 1140px;
