@@ -12,7 +12,7 @@ function App() {
 					<Route path="/about" component={About} />
 					<Route path="/products" component={Products} />
 					<Route path="/productDetails" component={ProductDetails} />
-					<Route exact path="/" component={Home} />
+					<Route exact path="/hazsbio" component={Home} />
 					<Route render={() => <h1>404 Page Not Found</h1>} />
 				</Switch>
 			</BrowserRouter>

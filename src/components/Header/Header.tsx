@@ -11,10 +11,10 @@ export const Header: React.FC = () => {
 		<div className={styles.header}>
 			<img className={styles.logoImg} src={Logo} alt="Logo" />
 			<div className={styles.menu}>
-				<Link to='/'>首页</Link>
-				<Link to='products'>产品</Link>
-				<Link to='about'>关于我们</Link>
-				<Link to='contact'>联系我们</Link>
+				<Link to='/hazsbio'>首页</Link>
+				<Link to='/products'>产品</Link>
+				<Link to='/about'>关于我们</Link>
+				<Link to='/contact'>联系我们</Link>
 			</div>
 		</div>
 	)
