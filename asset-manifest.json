@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/hazsbio/static/css/main.c5e1c981.css",
+    "main.js": "/hazsbio/static/js/main.f35eb693.js",
+    "static/media/cow.png": "/hazsbio/static/media/cow.cec9cd94212bb42acdff.png",
+    "static/media/teamwork.png": "/hazsbio/static/media/teamwork.c36d12da50dadcddf0ee.png",
+    "static/media/about_feeding.png": "/hazsbio/static/media/about_feeding.28c11386afdc2562f00a.png",
+    "static/media/bcbc.png": "/hazsbio/static/media/bcbc.2413e40a414a179a274f.png",
+    "static/media/shake.png": "/hazsbio/static/media/shake.d0aeaa4d3d52a5ddbac0.png",
+    "static/media/carousel_1.png": "/hazsbio/static/media/carousel_1.32699837a3593da46730.png",
+    "static/media/weChat.jpeg": "/hazsbio/static/media/weChat.39c6ca2455c95fea96c5.jpeg",
+    "static/media/Logo.png": "/hazsbio/static/media/Logo.7db754ee87580a5d4def.png",
+    "static/media/1.png": "/hazsbio/static/media/1.6edff1a03d7d500e6577.png",
+    "static/media/Kersia.png": "/hazsbio/static/media/Kersia.c8438131c184df29b1b5.png",
+    "static/media/service.png": "/hazsbio/static/media/service.bba9f32b021fde3f1df4.png",
+    "index.html": "/hazsbio/index.html",
+    "main.c5e1c981.css.map": "/hazsbio/static/css/main.c5e1c981.css.map",
+    "main.f35eb693.js.map": "/hazsbio/static/js/main.f35eb693.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c5e1c981.css",
+    "static/js/main.f35eb693.js"
+  ]
+}
