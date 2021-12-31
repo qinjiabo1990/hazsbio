@@ -1,0 +1,13 @@
+.filter-divider {
+	margin: 14px 0;
+}
+
+.filterTag-title {
+	margin-right: 40px;
+	font-size: 15px;
+	font-weight: 500;
+}
+
+.filterTag-tags {
+	font-size: 13px;
+}

@@ -1,0 +1,38 @@
+.introRow {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+		padding-bottom: 20px;
+}
+
+.introInfo {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+		margin-left: 60px;
+		margin-top: 40px;
+}
+
+.introTitle {
+    font-size: 24px;
+}
+
+.introSubtitle {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.introBrief {
+    font-size: 16px;
+		color: rgb(148, 147, 147);
+}
+
+.introButton {
+    background-color: #0090ff;
+    color: #ffffff;
+		margin-top: 10px;
+    font-size: 16px;
+		width: 150px;
+		height: 50px;
+		border: none;
+}

@@ -1,0 +1,40 @@
+.aboutTitle{
+	margin: 70px 0 70px;
+	font-size: 30px;
+}
+
+.aboutRow{
+	display: flex;
+	flex-direction: row;
+	width: 1140px;
+	margin: 0 auto 80px;
+	justify-content: space-around;
+}
+
+.aboutImg{
+	width: 450px;
+	border-radius: 20px;
+}
+
+.aboutInfoRight{
+	font-size: 18px;
+	margin: 0 0 0 60px;
+	text-align: left;
+}
+
+.aboutInfo{
+	font-size: 18px;
+	margin: 0 60px 40px 0;
+	text-align: left;
+}
+
+.aboutMid{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	/* border: solid 1px red; */
+}
+
+.aboutSubtitle{
+	font-size: 24px;
+}

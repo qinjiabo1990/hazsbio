@@ -1,0 +1,10 @@
+.searchCardImg{
+	width: 300px;
+}
+
+.searchCategory{
+	background-color: red;
+	color: white;
+	margin: 20px auto 0;
+	width: 100px;
+}

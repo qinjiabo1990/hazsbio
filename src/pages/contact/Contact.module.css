@@ -1,0 +1,47 @@
+.contactTitle{
+	margin: 70px 0 70px;
+	font-size: 30px;
+}
+
+.contactInfo{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	margin: 0 auto;
+	width: 1140px;
+}
+
+.info{
+	display: flex;
+	flex-direction: column;
+	width: 340px;
+	height: 350px;
+	align-items: center;
+}
+
+.info h3{
+	font-size: 20px;
+	margin-top: 50px;
+	margin-bottom: 40px;
+}
+
+.info p{
+	font-size: 18px;
+	border-bottom: 1px solid #16a6b6;
+}
+
+.infoIcon{
+	display: flex;
+	flex-direction: row;
+	width: 90px;
+	height: 90px;
+	border-radius: 50%;
+	background-color: #F5F9FE;
+	justify-content: center;
+	align-items: center;
+}
+
+.icon{
+	font-size: 50px;
+}

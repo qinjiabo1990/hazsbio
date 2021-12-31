@@ -1,0 +1,11 @@
+.productsTitle{
+	margin: 70px 0 70px;
+	font-size: 30px;
+}
+
+.productListContainer {
+	padding: 20px;
+	margin-top: 20px;
+	background: white;
+	text-align: left;
+}
