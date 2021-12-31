@@ -3,6 +3,7 @@ import styles from './ProductDetails.module.css'
 import { MainLayout } from '../../layouts/mainLayout';
 import { Row, Col, Spin, DatePicker, Space, Divider, Typography, Anchor, Menu, Button } from 'antd';
 import { Breadcrumbs, ProductDetailIntro } from '../../components';
+import fakeData from './fakeData.json'
 
 export const ProductDetails: React.FC = () => {
 	return (
@@ -38,7 +39,9 @@ export const ProductDetails: React.FC = () => {
 				<div
 					// dangerouslySetInnerHTML={{ __html: product.features }}
 					style={{ margin: 50 }}
-				></div>
+				>
+					<p>{fakeData[0].text}</p>
+				</div>
 			</div>
 			{/* Ingredients */}
 			<div id="ingredients" className={styles.productContainer}>
@@ -48,7 +51,9 @@ export const ProductDetails: React.FC = () => {
 				<div
 					// dangerouslySetInnerHTML={{ __html: product.features }}
 					style={{ margin: 50 }}
-				></div>
+				>
+					<p>{fakeData[1].text}</p>
+				</div>
 			</div>
 			{/* Usage */}
 			<div id="usage" className={styles.productContainer}>
@@ -58,7 +63,9 @@ export const ProductDetails: React.FC = () => {
 				<div
 					// dangerouslySetInnerHTML={{ __html: product.features }}
 					style={{ margin: 50 }}
-				></div>
+				>
+					<p>{fakeData[2].text}</p>
+				</div>
 			</div>
 			{/* Notes */}
 			<div id="notes" className={styles.productContainer}>
@@ -68,7 +75,9 @@ export const ProductDetails: React.FC = () => {
 				<div
 					// dangerouslySetInnerHTML={{ __html: product.features }}
 					style={{ margin: 50 }}
-				></div>
+				>
+					<p>{fakeData[3].text}</p>
+				</div>
 			</div>
 			{/* Data */}
 			<div id="data" className={styles.productContainer}>
@@ -78,7 +87,9 @@ export const ProductDetails: React.FC = () => {
 				<div
 					// dangerouslySetInnerHTML={{ __html: product.features }}
 					style={{ margin: 50 }}
-				></div>
+				>
+					<p>{fakeData[4].text}</p>
+				</div>
 			</div>
 		</MainLayout>)
 }
