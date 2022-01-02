@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/hazsbio/static/css/main.a9ebbb5d.css",
-    "main.js": "/hazsbio/static/js/main.3cd6e1ed.js",
+    "main.css": "/hazsbio/static/css/main.e74142e8.css",
+    "main.js": "/hazsbio/static/js/main.fdfbfb4a.js",
     "static/media/cow.png": "/hazsbio/static/media/cow.cec9cd94212bb42acdff.png",
     "static/media/teamwork.png": "/hazsbio/static/media/teamwork.c36d12da50dadcddf0ee.png",
     "static/media/about_feeding.png": "/hazsbio/static/media/about_feeding.28c11386afdc2562f00a.png",
@@ -14,11 +14,11 @@
     "static/media/Kersia.png": "/hazsbio/static/media/Kersia.c8438131c184df29b1b5.png",
     "static/media/service.png": "/hazsbio/static/media/service.bba9f32b021fde3f1df4.png",
     "index.html": "/hazsbio/index.html",
-    "main.a9ebbb5d.css.map": "/hazsbio/static/css/main.a9ebbb5d.css.map",
-    "main.3cd6e1ed.js.map": "/hazsbio/static/js/main.3cd6e1ed.js.map"
+    "main.e74142e8.css.map": "/hazsbio/static/css/main.e74142e8.css.map",
+    "main.fdfbfb4a.js.map": "/hazsbio/static/js/main.fdfbfb4a.js.map"
   },
   "entrypoints": [
-    "static/css/main.a9ebbb5d.css",
-    "static/js/main.3cd6e1ed.js"
+    "static/css/main.e74142e8.css",
+    "static/js/main.fdfbfb4a.js"
   ]
 }
