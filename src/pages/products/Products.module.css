@@ -3,6 +3,11 @@
 	font-size: 30px;
 }
 
+.productsResults{
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
 .productListContainer {
 	padding: 20px;
 	margin-top: 20px;

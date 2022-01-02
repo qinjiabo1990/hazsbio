@@ -17,7 +17,7 @@ export const Home: React.FC = () => {
 			</div>
 			<div className={styles.service}>
 				<h2>我们的服务</h2>
-				<div className={styles.productCard}>
+				<div className={styles.productsCard}>
 					<Service />
 					<Service />
 				</div>

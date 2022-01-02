@@ -8,6 +8,7 @@ import fakeData from './fakeData.json'
 export const ProductDetails: React.FC = () => {
 	return (
 		<MainLayout>
+			<div className={styles.productDetailContainer}>
 			<div className={styles.breadcrumbs}>
 				<Breadcrumbs />
 			</div>
@@ -101,6 +102,7 @@ export const ProductDetails: React.FC = () => {
 				>
 					<p>{fakeData[4].text}</p>
 				</div>
+			</div>
 			</div>
 		</MainLayout>)
 }

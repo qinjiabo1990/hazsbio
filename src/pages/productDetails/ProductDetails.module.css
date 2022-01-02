@@ -1,3 +1,8 @@
+.productDetailContainer{
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
 .breadcrumbs{
 	text-align: left;
 	font-size: 16px;
