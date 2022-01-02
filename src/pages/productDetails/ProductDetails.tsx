@@ -33,9 +33,12 @@ export const ProductDetails: React.FC = () => {
 			</Anchor>
 			{/* Features */}
 			<div id="features" className={styles.productContainer}>
-				<Divider orientation={'center'}>
-					<Typography.Title level={4}>功能与主治</Typography.Title>
-				</Divider>
+				<div className={styles.productSubtitle}>
+					<Divider orientation={'center'}>
+						<Typography.Title level={4}>功能与主治</Typography.Title>
+					</Divider>
+				</div>
+
 				<div
 					// dangerouslySetInnerHTML={{ __html: product.features }}
 					style={{ margin: 50 }}
@@ -45,9 +48,11 @@ export const ProductDetails: React.FC = () => {
 			</div>
 			{/* Ingredients */}
 			<div id="ingredients" className={styles.productContainer}>
+			<div className={styles.productSubtitle}>
 				<Divider orientation={'center'}>
 					<Typography.Title level={4}>主要成分</Typography.Title>
 				</Divider>
+				</div>
 				<div
 					// dangerouslySetInnerHTML={{ __html: product.features }}
 					style={{ margin: 50 }}
@@ -57,9 +62,11 @@ export const ProductDetails: React.FC = () => {
 			</div>
 			{/* Usage */}
 			<div id="usage" className={styles.productContainer}>
+			<div className={styles.productSubtitle}>
 				<Divider orientation={'center'}>
 					<Typography.Title level={4}>用法与用量</Typography.Title>
 				</Divider>
+				</div>
 				<div
 					// dangerouslySetInnerHTML={{ __html: product.features }}
 					style={{ margin: 50 }}
@@ -69,9 +76,11 @@ export const ProductDetails: React.FC = () => {
 			</div>
 			{/* Notes */}
 			<div id="notes" className={styles.productContainer}>
+			<div className={styles.productSubtitle}>
 				<Divider orientation={'center'}>
 					<Typography.Title level={4}>注意事项</Typography.Title>
 				</Divider>
+				</div>
 				<div
 					// dangerouslySetInnerHTML={{ __html: product.features }}
 					style={{ margin: 50 }}
@@ -81,9 +90,11 @@ export const ProductDetails: React.FC = () => {
 			</div>
 			{/* Data */}
 			<div id="data" className={styles.productContainer}>
+			<div className={styles.productSubtitle}>
 				<Divider orientation={'center'}>
 					<Typography.Title level={4}>国外实验数据</Typography.Title>
 				</Divider>
+				</div>
 				<div
 					// dangerouslySetInnerHTML={{ __html: product.features }}
 					style={{ margin: 50 }}
