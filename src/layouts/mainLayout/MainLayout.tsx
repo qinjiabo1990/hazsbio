@@ -6,8 +6,9 @@ export const MainLayout: React.FC = ({ children }) => {
 	return (
 		<>
 			<Header />
-			<div className={styles.pageContent}>{children}</div>
 			<Footer />
+			<div className={styles.pageContent}>{children}</div>
+			
 		</>
 	)
 }
