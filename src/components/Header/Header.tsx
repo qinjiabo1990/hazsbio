@@ -9,7 +9,9 @@ import Logo from '../../assets/img/Logo.png'
 export const Header: React.FC = () => {
 	return (
 		<div className={styles.header}>
+			<Link to='/hazsbio'>
 			<img className={styles.logoImg} src={Logo} alt="Logo" />
+			</Link>
 			<div className={styles.menu}>
 				<Link to='/hazsbio'>首页</Link>
 				<Link to='/products'>产品</Link>
